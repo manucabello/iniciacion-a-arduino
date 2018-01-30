@@ -12,9 +12,6 @@ const int buttonAPin = 2;     // the number of the pushbutton A pin
 const int buttonBPin = 4;     // the number of the pushbutton B pin
 const int ledPin =  8;      // the number of the LED pin
 
-// variables will change:
-int buttonState = 0;         // variable for reading the pushbutton status
-
 void setup() {
   // initialize the LED pin as an output:
   pinMode(ledPin, OUTPUT);
